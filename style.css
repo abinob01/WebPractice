@@ -3,42 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: beige;
+  background-color: rgb(174, 226, 78);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+
 h1 {
   font-size: 35px;
-  color: rgb(113, 113, 235);
+  color: azure;
+  text-align: center;
+  margin: 15px;
 }
 
 .A {
-  color: rgb(233, 129, 129);
+  color: black;
+  margin-bottom: 15px;
 }
+
 p {
   color: azure;
 }
+
 div {
-  background-color: rgba(100, 100, 75, 0.925);
+  background-color: rgba(136, 136, 108, 0.925);
   font-style: italic;
   border: 5px solid black;
-  margin-left: 10px;
-  margin-right: 50px;
+  width: 400px;
+  padding: 10px;
+  margin-left: 140px;
+  margin-top: 100px;
 }
 
 img {
-  width: 150px;
+  width: 300px;
   height: 100px;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
-section {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-}
+
 button {
   background: greenyellow;
-  border: 4px solid white;
+  padding: 4px;
+  width: 80px;
+  margin-left: 150px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  padding: 4px;
+  margin-left: 100px;
 }
