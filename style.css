@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+h1 {
+  font-size: 35px;
+  color: rgb(113, 113, 235);
+}
+
+.A {
+  color: rgb(233, 129, 129);
+}
+p {
+  color: azure;
+}
+div {
+  background-color: rgba(100, 100, 75, 0.925);
+  font-style: italic;
+  border: 5px solid black;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+button {
+  background: greenyellow;
+  border: 4px solid white;
+}
